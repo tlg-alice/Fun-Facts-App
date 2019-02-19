@@ -14,6 +14,8 @@
 		4CA2E8B622144D1F004385FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA2E8B422144D1F004385FB /* LaunchScreen.storyboard */; };
 		4CA2E8C122144D1F004385FB /* Fun_Facts_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA2E8C022144D1F004385FB /* Fun_Facts_AppTests.swift */; };
 		4CA2E8CC22144D1F004385FB /* Fun_Facts_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA2E8CB22144D1F004385FB /* Fun_Facts_AppUITests.swift */; };
+		4CABCDB2221B36C300A4C3EC /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CABCDB1221B36C300A4C3EC /* FactProvider.swift */; };
+		4CFD63F3221C2225008AC33A /* backgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD63F2221C2225008AC33A /* backgroundColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4CA2E8C722144D1F004385FB /* Fun Facts AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fun Facts AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA2E8CB22144D1F004385FB /* Fun_Facts_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun_Facts_AppUITests.swift; sourceTree = "<group>"; };
 		4CA2E8CD22144D1F004385FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CABCDB1221B36C300A4C3EC /* FactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		4CFD63F2221C2225008AC33A /* backgroundColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				4CA2E8AB22144D1C004385FB /* AppDelegate.swift */,
 				4CA2E8AD22144D1C004385FB /* ViewController.swift */,
+				4CABCDB1221B36C300A4C3EC /* FactProvider.swift */,
+				4CFD63F2221C2225008AC33A /* backgroundColorProvider.swift */,
 				4CA2E8AF22144D1C004385FB /* Main.storyboard */,
 				4CA2E8B222144D1F004385FB /* Assets.xcassets */,
 				4CA2E8B422144D1F004385FB /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				4CA2E8AE22144D1C004385FB /* ViewController.swift in Sources */,
 				4CA2E8AC22144D1C004385FB /* AppDelegate.swift in Sources */,
+				4CFD63F3221C2225008AC33A /* backgroundColorProvider.swift in Sources */,
+				4CABCDB2221B36C300A4C3EC /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AWN8BFYGCW;
 				INFOPLIST_FILE = "Fun Facts App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AWN8BFYGCW;
 				INFOPLIST_FILE = "Fun Facts App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
