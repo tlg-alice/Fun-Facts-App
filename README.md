@@ -1,6 +1,6 @@
 # Fun-Facts-App
 Fun Facts App was a tutorial on the Treehouse learning portal.
-In following the tutorial, I learned the following:
+I learned the following:
 
 - How to use Xcode IDE and Interface Builder
 
